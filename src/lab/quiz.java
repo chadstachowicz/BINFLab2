@@ -27,10 +27,10 @@ public class quiz {
 	    
 	    //check if I have an argument - if so it's the time (seconds)
 	    if (args.length > 0) {
-	    	//set time to arg instead of 30
+	    	//set time var to argument instead of 30
 	    	time = Integer.parseInt(args[0]);
 	    }
-	    //do a while loop chekcing time and for a wrong answer
+	    //do a while loop checking time and for a wrong answer
 		while (elapsedTime < time*1000 && wrongAnswer==false) {
 			
 			//create a random number 0-19 for working with the arrays
